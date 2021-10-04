@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="./Images/logo.png" alt="">
+        </a>
+            <ul class="navigation">
+                <li>
+                    <a href="#">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        TV Shows
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Movies
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Latest
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        My List
+                    </a>
+                </li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Seacrh">
+                <i class="fa fa-search"></i>
+            </div>
+    </header>
+    <div class="banner">
+        <img src="./Images/bg.jpg" class="bg" alt="">
+        <div class="content">
+            <img src="./Images/name.png" class="movietitle" alt="">
+            <h4>
+                <span>
+                    2020
+                </span>
+                <span>
+                    <i>12+</i>
+                </span>
+                <span>
+                    1h 55min
+                </span>
+                <span>
+                    Action
+                </span>
+            </h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta magni amet quos mollitia nulla maxime, perferendis veniam harum odio aperiam recusandae laborum nostrum aspernatur quam voluptatibus impedit tenetur, illo illum.</p>
+            <div class="buttons">
+                 <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Play</a>
+                 <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>My List </a>
+            </div>
+        </div>
+        <a href="#" class="play" onclick="togglevideo();"><img src="./Images/play.png" alt="">
+        Watch Trailer</a>
+    </div>
+    <div class="trailer">
+        <video src="./Video/trailer.mp4" controls="true" autoplay="true" ></video>
+        <img src="./Images/close.png" class="close" alt="" onclick="togglevideo();">
+    </div>
+
+    <!-- script -->
+
+    <script src="./js/main.js"></script>
+
+    <!-- script -->
+
+</body>
+</html>
